@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            function display_epoch_time() {
+                var time_element = document.getElementById("time");                
+                time_element.innerHTML = Math.round((new Date()).getTime() / 1000);
+            };
+
+            window.onload = function() {
+                display_epoch_time()
+            };
+        </script>
+    </head>
+    <body>
+
+        <p id="time">Time Loading...</p>
+        <button onclick="display_epoch_time()">Click here</button>
+
+    </body>
+</html>
+
