@@ -1,8 +1,15 @@
 This uses a Postgres database of apple sales to calculate the average daily sales for each seller.
 
-The tables are set up in the following way:
+Usage: 
+
+```
+# node find_averages.js
+```
+
+The database tables are set up in the following way:
 
 Sales Table:
+
 | Field Name | Type |
 |------------|:--------------------------------------:|
 | Id | Serial; Primary key |
@@ -11,6 +18,7 @@ Sales Table:
 | ApplesSold | int |
 
 Seller Table:
+
 | Field Name | Type |
 |------------|:--------------------------------------:|
 | Id | Serial; Primary key |
