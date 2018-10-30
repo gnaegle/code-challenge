@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node find_averages.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "pg": "~7.5.0"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "pg": "^7.5.0"
   }
-
 }
-
