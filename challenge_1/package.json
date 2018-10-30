@@ -1,0 +1,13 @@
+{
+  "name": "challenge_1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node find_averages.js"
+  },
+  "dependencies": {
+    "pg": "~7.5.0"
+  }
+
+}
+
